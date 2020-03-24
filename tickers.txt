@@ -1,0 +1,4 @@
+MSFT
+SBUX
+INTL
+TSLA

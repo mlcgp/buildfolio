@@ -13,7 +13,7 @@ import pandas as pd
 import os
 
 
-class Builder:
+class Portfolio:
 
     def __init__(self, ticker_file, start, end):
         """
@@ -55,14 +55,17 @@ class Builder:
         """
         return np.ones((self.n), dtype='float64') / self.n
 
-    def weight_dict(self):
+    def weight_dict(self, weights=None):
         """
         Ticker weight dictionary.
 
         :return: Ticker: weight dictionary
         :rtype: dictionary
         """
-        w = list(self.w)
+        if weights is None:
+            w = list(self.w)
+        if weights is not None:
+            w = list(weights)
         self.weights = dict(zip(self.tickers, w))
         return self.weights
 
@@ -223,8 +226,8 @@ class Builder:
 
         :param array: A price or return dataframe.
         :type array: pd.DataFrame, np.array
-        :param cwd: The current working directory.
-        :type cwd: os.path
+        :param name: Desired filename.
+        :type name: str
         :return: csv file in the current working directory.
         :rtype: .csv
         """

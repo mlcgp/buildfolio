@@ -107,5 +107,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# End of https://www.gitignore.io/api/python
+# Mac files
+.DS_Store/
 
+# End of https://www.gitignore.io/api/python

@@ -2,7 +2,6 @@
 
 A simple portfolio management package.
 
-```HTML
 <p align="left">
     <a href="https://www.python.org/">
         <img src="https://ForTheBadge.com/images/badges/made-with-python.svg"
@@ -11,7 +10,6 @@ A simple portfolio management package.
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square"
             alt="MIT license"></a> &nbsp;
 </p>
-```
 
 Example
 

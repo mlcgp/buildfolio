@@ -1,6 +1,4 @@
-# Buildfolio
-
-A simple portfolio management package.
+![logo-banner](/Users/malcolmgillespie/Projects/buildfolio/media/logo-banner.png)A starting point for your investment portfolio.
 
 <p align="left">
     <a href="https://www.python.org/">
@@ -107,16 +105,18 @@ optimizers.max_sharpe
 
 ## Backlog
 
-- Portfolio visualization module
+- Capital allocation module
+- Portfolio backtest/visualization module
 - Portfolio performance module
-- Black Litterman optimization process
-- Hierarchical optimization process
+- Hierarchical Risk Parity optimization process
 - Monte Carlo optimization process
 - CVaR optimization process
-- Backtesting module
 - Omega Ratio
 - Sortino Ratio
 
 
 
-*Disclaimer: This is not trading or investment advice.*
+**Disclosure**: 
+
+*This is not professional trading or investment advice. Investors are reminded that they should seek advice from a registered broker or financial advisor before making any investment decisions. This material is considered general information, and is not to be relied on as a formal investment recommendation.*
+

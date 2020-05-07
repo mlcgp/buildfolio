@@ -1,4 +1,6 @@
-![logo-banner](/Users/malcolmgillespie/Projects/buildfolio/media/logo-banner.png)A starting point for your investment portfolio.
+![logo-banner](https://github.com/mlcgp/buildfolio/blob/master/media/logo-banner.png)
+
+A starting point for your investment portfolio.
 
 <p align="left">
     <a href="https://www.python.org/">
